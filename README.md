@@ -8,11 +8,11 @@
 
 _See the [Cookbook Contributor's Guide](https://projectpythia.org/cookbook-guide) for step-by-step instructions on how to create your new Cookbook and get it hosted on the [Pythia Cookbook Gallery](https://cookbooks.projectpythia.org)!_
 
-This Project Pythia Cookbook covers ... (replace `...` with the main subject of your cookbook ... e.g., _working with radar data in Python_)
+This Project Pythia Cookbook covers how to employ a simple AI model to predict hurricane intensity using IBTRACKS and ERA5 environmental variables.
 
 ## Motivation
 
-(Add a few sentences stating why this cookbook will be useful. What skills will you, "the chef", gain once you have reached the end of the cookbook?)
+Here, you will learn how to run a simple AI model to predict hurricane intensity. You will first preprocess ERA5 environmental variables associated with each Tropical Storm in the IBTRACKS dataset. Then, you will use this preprocessed data to create and train an AI model to predict future cyclone intensity. You will gain experience working primarily with xarray and ...
 
 ## Authors
 
@@ -26,15 +26,15 @@ This Project Pythia Cookbook covers ... (replace `...` with the main subject of 
 
 ## Structure
 
-(State one or more sections that will comprise the notebook. E.g., _This cookbook is broken up into two main sections - "Foundations" and "Example Workflows."_ Then, describe each section below.)
+### Introduction
 
-### Section 1 ( Replace with the title of this section, e.g. "Foundations" )
+Read in the data that will be used, including ERA5 and IBTRACKS. 
 
-(Add content for this section, e.g., "The foundational content includes ... ")
+### Data Preprocessing
 
-### Section 2 ( Replace with the title of this section, e.g. "Example workflows" )
+Process the data into a format that is appropriate for the AI model.
 
-(Add content for this section, e.g., "Example workflows include ... ")
+### Training the Model
 
 ## Running the Notebooks
 
