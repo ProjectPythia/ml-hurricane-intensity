@@ -13,3 +13,5 @@ dependencies:
   - cartopy
   - netCDF4
   - scipy
+  - h5netcdf
+  - global-land-mask
