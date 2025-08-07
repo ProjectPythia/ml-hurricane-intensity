@@ -14,4 +14,6 @@ dependencies:
   - netCDF4
   - scipy
   - h5netcdf
-  - global-land-mask
+  - pip
+  - pip:
+      - global-land-mask
