@@ -11,3 +11,5 @@ dependencies:
   - tensorflow
   - matplotlib
   - cartopy
+  - netCDF4
+  - scipy
