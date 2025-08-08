@@ -15,6 +15,7 @@ dependencies:
   - scipy
   - h5netcdf
   - pip
+  - seaborn
   - pip:
       - global-land-mask
       - visualkeras
