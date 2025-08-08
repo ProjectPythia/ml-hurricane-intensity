@@ -13,10 +13,15 @@ project:
     - title: Preamble
       children:
         - file: notebooks/how-to-cite.md
+    - title: Introduction
     - title: Data Preprocessing
       children:
         - file: notebooks/ibtrack_preprocessing.ipynb
         - file: notebooks/era5_preprocessing.ipynb
+    - title: Model
+      children:
+        - file: notebooks/Model.ipynb
+
   jupyter:
       binder:
         repo: projectpythia/ml-hurricane-intensity
