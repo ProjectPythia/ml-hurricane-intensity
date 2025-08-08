@@ -23,6 +23,9 @@ Here, you will learn how to run a simple AI model to predict hurricane intensity
 
 ## Structure
 
+
+![ML_hur_model](./test_folder/ML%20Hurricane%20prediction%20-%20Cookbook.png)
+
 ### Introduction
 
 An overview of our task at hand and a helpful review of our data sources and tasks. 
