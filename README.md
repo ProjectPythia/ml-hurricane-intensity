@@ -6,9 +6,6 @@
 [![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/cookbook-template/main?labpath=notebooks)
 [![DOI](https://zenodo.org/badge/475509405.svg)](https://zenodo.org/badge/latestdoi/475509405)
 
-_See the [Cookbook Contributor's Guide](https://projectpythia.org/cookbook-guide) for step-by-step instructions on how to create your new Cookbook and get it hosted on the [Pythia Cookbook Gallery](https://cookbooks.projectpythia.org)!_
-
-This Project Pythia Cookbook covers how to employ a simple AI model to predict hurricane intensity using IBTRACKS and ERA5 environmental variables.
 
 ## Motivation
 
@@ -28,13 +25,15 @@ Here, you will learn how to run a simple AI model to predict hurricane intensity
 
 ### Introduction
 
-Read in the data that will be used, including ERA5 and IBTRACKS. 
+An overview of our task at hand and a helpful review of our data sources and tasks. 
 
 ### Data Preprocessing
 
 Process the data into a format that is appropriate for the AI model.
 
 ### Training the Model
+
+Build and run our model!
 
 ## Running the Notebooks
 
