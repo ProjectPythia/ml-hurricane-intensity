@@ -3,19 +3,20 @@ version: 1
 extends:
   - https://raw.githubusercontent.com/projectpythia/pythia-config/main/pythia.yml
 project:
-  title: Project Pythia Cookbook Template
-  github: https://github.com/projectpythia/cookbook-template
+  title: Machine Learning Hurricane Intensity Prediction Cookbook
+  github: https://github.com/ProjectPythia/ml-hurricane-intensity
   authors:
-    - name: The Project Pythia Community
+    - name: Nirmal Alex, Matthew Lynne
   copyright: '2024'
   toc:
     - file: README.md
     - title: Preamble
       children:
         - file: notebooks/how-to-cite.md
-    - title: Introduction
+    - title: Data Preprocessing
       children:
-        - file: notebooks/notebook-template.ipynb
+        - file: notebooks/ibtrack_preprocessing.ipynb
+        - file: notebooks/era5_preprocessing.ipynb
   jupyter:
       binder:
-        repo: projectpythia/cookbook-template
+        repo: projectpythia/ml-hurricane-intensity

@@ -16,7 +16,7 @@ Here, you will learn how to run a simple AI model to predict hurricane intensity
 
 ## Authors
 
-[First Author](https://github.com/first-author1), [Second Author](https://github.com/second-author2), etc. _Acknowledge primary content authors here_
+[Nirmal Alex](https://github.com/nmathewa), [Matthew Lynne](https://github.com/mattsl21), etc. _Acknowledge primary content authors here_
 
 ### Contributors
 
