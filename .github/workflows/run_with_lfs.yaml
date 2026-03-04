@@ -1,0 +1,8 @@
+- uses: actions/checkout@v4
+  with:
+    lfs: true
+
+- name: Git LFS pull
+  run: |
+    git lfs install --local
+    git lfs pull
